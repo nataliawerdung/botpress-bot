@@ -1,0 +1,22 @@
+[
+  {
+    "id": "builtin_image-GdKcQe",
+    "formData": {
+      "image": "/media/bo2uiombkmhinxddhxfy-eos-news.de_-1024x419.jpg",
+      "title": "people at work",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-09-12T09:08:44.279Z"
+  },
+  {
+    "id": "builtin_image-1HhwVj",
+    "formData": {
+      "image": "/media/vrwupyzpml89w61qoiql-badge_etracker-150x150.jpg",
+      "title": "badge",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-09-12T09:09:00.411Z"
+  }
+]

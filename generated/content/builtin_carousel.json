@@ -1,0 +1,29 @@
+[
+  {
+    "id": "builtin_carousel-6WwTmU",
+    "formData": [
+      {
+        "title": "Ich bin motorisiert",
+        "actions": [
+          {
+            "title": "Auto",
+            "action": "Say something"
+          }
+        ],
+        "typing": true
+      },
+      {
+        "title": "Nee, lieber Fahrrad oder Öfis",
+        "typing": true,
+        "actions": [
+          {
+            "title": "Kein Auto",
+            "action": "Say something"
+          }
+        ]
+      }
+    ],
+    "createdBy": "admin",
+    "createdOn": "2018-09-12T09:17:12.670Z"
+  }
+]

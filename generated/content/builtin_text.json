@@ -1,0 +1,67 @@
+[
+  {
+    "id": "builtin_text-mM0szb",
+    "formData": {
+      "text": "Wie kann ich dich nennen?",
+      "variations": [
+        "Mit wem habe ich die Ehre?",
+        "Verrätst du mir Deinen Namen?"
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-09-12T09:18:52.774Z"
+  },
+  {
+    "id": "builtin_text-Oa7bMt",
+    "formData": {
+      "text": "Großartig! Dann mal los.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-09-12T09:19:32.211Z"
+  },
+  {
+    "id": "builtin_text-F_6pvC",
+    "formData": {
+      "text": "Schade:( Willst du lieber mit einem Berater sprechen?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-09-12T09:19:57.019Z"
+  },
+  {
+    "id": "builtin_text-i8hXHz",
+    "formData": {
+      "text": "Hast du ein Auto?",
+      "variations": [
+        "Besitzt du ein Auto?"
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-09-12T09:38:16.504Z"
+  },
+  {
+    "id": "builtin_text-W0esLt",
+    "formData": {
+      "text": "Hallo, ich bin Joxi, der Bot. ",
+      "variations": [
+        "Hallöchen, ich bin dein Sijox-Bot",
+        "Hallo Unbekannter. Hier spricht Joxi, dein Helfer "
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-09-12T09:50:37.070Z"
+  },
+  {
+    "id": "builtin_text-GcaiKe",
+    "formData": {
+      "text": "Willkommen {{event.text}}",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-09-12T11:48:19.978Z"
+  }
+]

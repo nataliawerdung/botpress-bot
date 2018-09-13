@@ -1,0 +1,12 @@
+[
+  {
+    "id": "builtin_action-button-v6r0_N",
+    "formData": {
+      "title": "Finde Deinen Berater",
+      "action": "Open URL",
+      "url": "https://www.sijox.de/sijox-vor-ort.html"
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-09-12T09:12:15.206Z"
+  }
+]

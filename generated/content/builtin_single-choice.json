@@ -1,0 +1,39 @@
+[
+  {
+    "id": "builtin_single-choice-I1mgW4",
+    "formData": {
+      "text": "Darf ich dich beraten?",
+      "choices": [
+        {
+          "title": "Ja, warum nicht?",
+          "value": "1"
+        },
+        {
+          "title": "Nein, danke",
+          "value": "2"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-09-12T09:10:48.194Z"
+  },
+  {
+    "id": "builtin_single-choice-XAtHvi",
+    "formData": {
+      "choices": [
+        {
+          "title": "Ja, ich bin motorisiert",
+          "value": "1"
+        },
+        {
+          "title": "Nö, lieber Öfis und Fahrrad",
+          "value": "0"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-09-12T09:44:57.368Z"
+  }
+]

@@ -1,0 +1,88 @@
+{
+  "version": "0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.nlu.intent.is('forget')",
+        "node": "forget-my-name"
+      }
+    ]
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "85ecd6d87b",
+      "name": "entry",
+      "next": [
+        {
+          "condition": "state.$r !== null",
+          "node": "name"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-W0esLt"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "1f689339ab",
+      "name": "consultation_yes",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-Oa7bMt",
+        "say #!builtin_text-i8hXHz",
+        "say #!builtin_single-choice-XAtHvi",
+        "setUserVariable {\"name\":\"auto\",\"value\":\"\",\"expiry\":\"never\"}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "6a8e8460d8",
+      "name": "consultation_no",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-F_6pvC",
+        "say #!builtin_action-button-v6r0_N"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "7c746adf74",
+      "name": "name",
+      "next": [
+        {
+          "condition": "true",
+          "node": "consultation_allowance"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-mM0szb",
+        "setUserVariable {\"name\":\"name\",\"value\":\"{{event.text}}\",\"expiry\":\"never\"}"
+      ],
+      "onReceive": [
+        "say #!builtin_text-GcaiKe"
+      ]
+    },
+    {
+      "id": "c28ea3e539",
+      "name": "consultation_allowance",
+      "next": [
+        {
+          "condition": "state.$consultation_allowance == 1",
+          "node": "consultation_yes"
+        },
+        {
+          "condition": "state.$consultation_allowance == 2",
+          "node": "consultation_no"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_single-choice-I1mgW4",
+        "setUserVariable {\"name\":\"consultation_allowance\",\"value\":\"{{event.value}}\",\"expiry\":\"never\"}",
+        "getUserVariable {\"name\":\"consultation_allowance\",\"output\":\"$consultation_allowance\"}"
+      ],
+      "onReceive": []
+    }
+  ]
+}
